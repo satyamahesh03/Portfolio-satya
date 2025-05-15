@@ -27,7 +27,7 @@ This is a personal portfolio web application built using React. It showcases pro
   ```
 2. Navigate to the project directory:
   ```bash
-  cd portfolio-satya
+  cd Portfolio-satya
   ```
 3. Install dependencies:
   ```bash
