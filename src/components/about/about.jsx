@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css";
 import Me from '../../assets/Sat-image-about.jpg';
-import { BsAward } from 'react-icons/bs';
+import { FiUser } from 'react-icons/fi';
 import { AiOutlineFolderOpen } from 'react-icons/ai';
 
 const About = () => {
@@ -21,9 +21,9 @@ const About = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <BsAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>Fresher</small>
+              <FiUser className='about__icon' />
+              <h5>Student</h5>
+              <small>Final Year CSE</small>
             </article>
 
             <article className='about__card'>

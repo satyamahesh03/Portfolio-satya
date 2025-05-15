@@ -1,6 +1,6 @@
 import React from 'react';
 import './services.css';
-import {BsCheck2All} from 'react-icons/bs';
+import { BsCheck2All } from 'react-icons/bs';
 
 const Services = () => {
   return (
@@ -15,35 +15,35 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BsCheck2All className='service__list-icon'/>
-              <p>Mobile-friendly websites.</p>
+              <BsCheck2All className='service__list-icon' />
+              <p><strong>Mobile-Friendly Design:</strong> Your website will look great and work smoothly on phones, tablets, and desktops.</p>
             </li>
             <li>
               <BsCheck2All className='service__list-icon' />
-              <p>Clean and modern design.</p>
+              <p><strong>Clean & Modern Layout:</strong> We craft professional designs that feel fresh and easy to navigate for all users.</p>
             </li>
             <li>
               <BsCheck2All className='service__list-icon' />
-              <p>Easy-to-use features.</p>
+              <p><strong>User-Friendly Features:</strong> Visitors can quickly find what they need, fill out forms, or navigate pages with ease.</p>
             </li>
             <li>
               <BsCheck2All className='service__list-icon' />
-              <p>Simple and secure contact forms.</p>
+              <p><strong>Secure Contact Forms:</strong> Your clients can reach out safely, and their data is protected against spam or misuse.</p>
             </li>
             <li>
               <BsCheck2All className='service__list-icon' />
-              <p>Easy to update and maintain.</p>
+              <p><strong>Easy Maintenance:</strong> The site is built so future updates like content or images are simple and fast to make.</p>
             </li>
             <li>
               <BsCheck2All className='service__list-icon' />
-              <p>Fast and reliable performance.</p>
+              <p><strong>Fast Performance:</strong> Pages load quickly and the site remains stable and reliable at all times.</p>
             </li>
           </ul>
 
-          
+
         </article>
       </div>
-      
+
 
     </section>
   )

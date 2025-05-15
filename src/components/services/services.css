@@ -1,15 +1,19 @@
 .services__container {
-    display: flex;
-    justify-content: center;
-    width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+  width: 100%;
 }
 
 .service {
-    background: var(--color-bg-variant);
-    border-radius: 2rem 2rem 2rem 2rem;
-    border: 1px solid var(--color-primary);
-    height: fit-content;
-    transition: var(--transition);
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  border: 1px solid var(--color-primary);
+  padding: 2rem;
+  height: fit-content;
+  transition: var(--transition);
+  width: 100%;
 }
 
 .service:hover {
@@ -53,23 +57,15 @@
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
 
 @media screen and (max-width: 1024px) {
-    .services__container {
-        width: 60%;
-    }
-
-    .service {
-        width: 60%;
-    }
+  .services__container {
+    grid-template-columns: 1fr;
+    padding: 1rem 0;
+  }
 }
 
-/* ------ MEDIA Queries (Mobile/Small Devices) ------ */
-
 @media screen and (max-width: 600px) {
-    .services__container {
-        width: 60%;
-    }
-
-    .service {
-        width: 60%;
-    }
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

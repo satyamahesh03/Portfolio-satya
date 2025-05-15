@@ -1,6 +1,6 @@
 # Portfolio Web Application
 
-This is a personal portfolio web application built using React. It showcases projects, skills, and experiences in an interactive and visually appealing way.
+This is a personal portfolio web application built using React. It showcases projects, skills, and skillss in an interactive and visually appealing way.
 
 ## Features
 
