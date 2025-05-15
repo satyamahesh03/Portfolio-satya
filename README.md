@@ -23,11 +23,11 @@ This is a personal portfolio web application built using React. It showcases pro
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/satyamahesh03/Portfolio.git
+  git clone https://github.com/satyamahesh03/Portfolio-satya.git
   ```
 2. Navigate to the project directory:
   ```bash
-  cd portfolio-web-application-master
+  cd Portfolio-satya
   ```
 3. Install dependencies:
   ```bash
