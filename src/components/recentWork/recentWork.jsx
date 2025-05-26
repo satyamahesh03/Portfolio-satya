@@ -3,6 +3,7 @@ import "./recentWork.css";
 import IMG1 from '../../assets/Project1.png';
 import IMG2 from '../../assets/Project2.png';
 import IMG3 from '../../assets/Project3.png';
+import IMG4 from '../../assets/Project4.png';
 
 const projects = [
   {
@@ -20,12 +21,20 @@ const projects = [
     demo: 'https://carfinderlite.vercel.app/'
   },
   {
+    id: 4,
+    image: IMG4,
+    title: 'Blog Ediitor',
+    github: 'https://github.com/satyamahesh03/blogEditor',
+    demo: 'https://ourblogseditor.vercel.app/'
+  },
+  {
     id: 3,
     image: IMG3,
     title: 'Tic Tac Toe',
     github: 'https://github.com/satyamahesh03/tic-tac-toe',
     demo: 'https://satyamahesh03.github.io/tic-tac-toe'
   }
+  
 ];
 
 const RecentWork = () => {
