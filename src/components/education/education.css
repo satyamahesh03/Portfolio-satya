@@ -30,8 +30,11 @@
 
 .education__head h3 {
   color: var(--color-bg);
-  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
   text-align: center;
+  letter-spacing: -0.01em;
 }
 
 .education__list {
@@ -50,7 +53,28 @@
 }
 
 .education__list p {
-  font-size: 0.9rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-light);
+}
+
+.education__list p strong {
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.education__list p a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.education__list p a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 /* Responsive tweaks */
@@ -71,5 +95,14 @@
 
   .education {
     width: 100%;
+  }
+  
+  .education__head h3 {
+    font-size: 1.1rem;
+  }
+  
+  .education__list p {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }

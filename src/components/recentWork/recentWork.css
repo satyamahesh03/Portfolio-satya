@@ -24,12 +24,24 @@
 
 .recentWork__item h3 {
     margin: 1.2rem 0 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--color-white);
+    letter-spacing: -0.01em;
 }
 
 .recentWork__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.recentWork__item-cta .btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.01em;
 }
 
 
@@ -48,5 +60,20 @@
     .recentWork__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    
+    .recentWork__item h3 {
+        font-size: 1.1rem;
+        margin: 1rem 0 1.5rem;
+    }
+    
+    .recentWork__item-cta {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .recentWork__item-cta .btn {
+        font-size: 0.85rem;
+        padding: 0.6rem 1.2rem;
     }
 }

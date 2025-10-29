@@ -29,12 +29,15 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineFolderOpen className='about__icon' />
               <h5>Projects</h5>
-              <small>4 Completed</small>
+              <small>5+ Completed</small>
             </article>
           </div>
           <p>
-            I am looking for a Job to build my carrier in software industry. Computer Science Engineering student with a strong understanding of full-stack web developmentand programming fundamentals. Experienced in building responsive and user-friendly web applications using the MERN stack.
-            Skilled in C, C++, Python, Java, and database systems like MongoDB and MySQL. A quick learner with good problem-solving and teamwork abilities, looking to contribute to real-world software projects and grow in the tech industry.
+            Hi, I'm Satya Mahesh Kolli, a MERN stack developer who believes that technology is one of the most powerful tools to shape the future. For me, coding isn't just about writing lines of code, it's about creating something meaningful, solving problems, and bringing ideas to life through innovation.
+            <br /><br />
+            I'm driven by curiosity and the constant desire to learn, build, and evolve. Every new concept I explore, every challenge I face, pushes me to think differently and craft smarter solutions. I enjoy the process of turning abstract ideas into interactive digital experiences that make an impact.
+            <br /><br />
+            Beyond academics, I'm someone who values growth, collaboration, and creativity. I believe that great things happen when passion meets purpose, and I strive to blend both in everything I do. My goal is to continue learning, experimenting, and contributing to a world where technology truly makes life better.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Contact Me</a>

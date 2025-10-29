@@ -19,6 +19,13 @@ header {
     justify-content: center;
 }
 
+.cta .btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+}
+
 /* ----- Header Social Buttons ----- */
 
 .header__socials {
@@ -62,8 +69,11 @@ header {
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
@@ -79,9 +89,22 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding-top: 3rem;
     }
 
     .header__socials, .scroll__down {
         display: none;
+    }
+    
+    .cta {
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .cta .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.5rem;
     }
 }

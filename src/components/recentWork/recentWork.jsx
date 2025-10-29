@@ -4,17 +4,25 @@ import IMG1 from '../../assets/Project1.png';
 import IMG2 from '../../assets/Project2.png';
 import IMG3 from '../../assets/Project3.png';
 import IMG4 from '../../assets/Project4.png';
+import IMG5 from '../../assets/Project5.png';
 
 const projects = [
   {
-    id: 1,
+    id: 2,
+    image: IMG5,
+    title: 'Campus Collab',
+    github: 'https://github.com/satyamahesh3kolli/CampusCollab-Web',
+    demo: 'https://campuscollab-web.vercel.app'
+  },
+  {
+    id: 2,
     image: IMG1,
     title: 'Pack & Go',
     github: 'https://github.com/satyamahesh03/Pack-Go-Project',
     demo: 'https://packngo.vercel.app/'
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'Car Finder',
     github: 'https://github.com/satyamahesh03/car-finder-app',
@@ -28,7 +36,7 @@ const projects = [
     demo: 'https://ourblogseditor.vercel.app/'
   },
   {
-    id: 3,
+    id: 5,
     image: IMG3,
     title: 'Tic Tac Toe',
     github: 'https://github.com/satyamahesh03/tic-tac-toe',

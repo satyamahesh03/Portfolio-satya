@@ -51,17 +51,28 @@
 }
 
 .about__card h5 {
-    font-size: 0.95rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 0.5rem;
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
     color: var(--color-light);
+    font-weight: 400;
+    line-height: 1.4;
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
 }
 
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
@@ -101,5 +112,15 @@
 
     .about__content p {
         margin: 1.5rem 0;
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .about__card h5 {
+        font-size: 0.9rem;
+    }
+    
+    .about__card small {
+        font-size: 0.8rem;
     }
 }

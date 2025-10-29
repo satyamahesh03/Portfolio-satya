@@ -31,8 +31,11 @@
 
 .service__head h3 {
     color: var(--color-bg);
-    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
     text-align: center;
+    letter-spacing: -0.01em;
 }
 
 .service__list {
@@ -51,7 +54,16 @@
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-light);
+}
+
+.service__list p strong {
+    font-weight: 600;
+    color: var(--color-white);
 }
 
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
@@ -67,5 +79,14 @@
   .services__container {
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  
+  .service__head h3 {
+    font-size: 1.1rem;
+  }
+  
+  .service__list p {
+    font-size: 0.9rem;
+    line-height: 1.5;
   }
 }

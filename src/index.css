@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
     margin: 0;
@@ -38,10 +38,10 @@ html {
 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
-    line-height: 1.7;
+    line-height: 1.6;
     background-image: url(./assets/bg.jpg);
     background-attachment: fixed;
     background-size: 100%;
@@ -56,11 +56,42 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+h3 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 500;
+}
+
+h5 {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 500;
+}
+
+h6 {
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    font-weight: 500;
 }
 
 section {
@@ -99,6 +130,10 @@ a:hover {
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
 }
 
 .btn:hover {
@@ -118,6 +153,32 @@ img {
     object-fit: cover;
 }
 
+/* Typography improvements */
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 400;
+    color: var(--color-light);
+}
+
+small {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Improve text readability */
+.text-light {
+    font-weight: 500;
+}
+
+/* Better spacing for text elements */
+section p {
+    margin-bottom: 1.5rem;
+}
+
 /* ------ MEDIA Queries (Tabs/Medium Devices) ------ */
 
 @media screen and (max-width: 1024px) {
@@ -127,7 +188,15 @@ img {
 
     section {
         margin-top: 6rem;
-    };
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 /* ------ MEDIA Queries (Mobile/Small Devices) ------ */
@@ -139,7 +208,24 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
-    };
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
 }
 
 

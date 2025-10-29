@@ -26,7 +26,7 @@ const Education = () => {
                                 <a href="https://maps.google.com/?q=MVGR+College+of+Engineering+Vizianagaram" target="_blank" rel="noopener noreferrer">
                                     Maharaj Vijayaram Gajapathi Raj College of Engineering, Vizianagaram (2022–2026)
                                 </a><br />
-                                <em>CGPA:</em> 8.29
+                                <em>CGPA:</em> 7.95
                             </p>
                         </li>
                         <li>
